@@ -1,0 +1,22 @@
+default:
+  suites:
+    default:
+      paths:
+        features: %paths.base%/features
+      contexts:
+        - FeatureContext
+        - Behat\MinkExtension\Context\MinkContext
+        - behatch:browser
+        - behatch:debug
+        - behatch:system
+        - behatch:json
+        - behatch:table
+        - behatch:rest
+        - behatch:xml
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://localhost:9000/
+      sessions:
+        default:
+          selenium2: ~
+    Sanpi\Behatch\Extension: ~

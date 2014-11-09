@@ -1,0 +1,21 @@
+{
+    "name": "m0r1/php-behat-sample",
+    "require": {
+        "silex/silex": "1.*"
+    },
+    "require-dev": {
+        "behat/behat": "3.*",
+        "behat/mink": "*",
+        "behat/mink-extension": "*",
+        "behat/mink-selenium2-driver": "*",
+        "sanpi/behatch-contexts": "*"
+    },
+    "config": {
+        "bin-dir": "vendor/bin"
+    },
+    "autoload": {
+        "classmap": [
+            "tests/features/bootstrap/"
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "php-behat-sample",
+    "version": "0.0.1",
+    "author": "m0r1",
+    "devDependencies": {
+        "gulp": "^3.8.10",
+        "gulp-behat": "^0.4.2",
+        "gulp-notify": "^2.0.0",
+        "gulp-run": "^1.6.4",
+        "gulp-watch": "^1.1.0"
+    }
+}

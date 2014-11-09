@@ -1,0 +1,6 @@
+.svn/
+.DS_Store
+composer.phar
+vendor/
+node_modules/
+!.gitkeep
